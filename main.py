@@ -8,3 +8,5 @@ for color in colors:
     b = color.rgb.b
     new_color = (r, g, b)
     rgb_colors.append(new_color)
+
+print(rgb_colors)
