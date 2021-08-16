@@ -7,9 +7,9 @@ color_list = [(246, 240, 243), (129, 165, 205), (223, 150, 110), (31, 40, 60), (
 
 
 
-
-tim.dot(20, random.choice(color_list))
-
+for _ in range(10):
+    tim.dot(20, random.choice(color_list))
+    tim.forward(50)
 
 
 
