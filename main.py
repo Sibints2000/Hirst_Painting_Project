@@ -5,6 +5,7 @@ turtle_module.colormode(255)
 tim = turtle_module.Turtle()
 tim.speed("fastest")
 tim.penup()
+tim.hideturtle()
 color_list = [(246, 240, 243), (129, 165, 205), (223, 150, 110), (31, 40, 60),
               (201, 134, 146), (140, 185, 163), (236, 214, 93), (167, 60, 48),
               (35, 100, 151), (141, 64, 72), (236, 165, 156), (215, 86, 78),
